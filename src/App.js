@@ -1,6 +1,6 @@
 import {ChatEngine} from 'react-chat-engine';
 import ChatFeed from './components/ChatFeed';
-import './app.css';
+import './App.css';
 import LoginForm from './components/LoginForm';
 
 const PID = process.env.REACT_APP_PID;
