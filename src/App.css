@@ -100,6 +100,7 @@
     float: left;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     margin-left: 18px;
   }
   
@@ -124,6 +125,8 @@
     font-size: 16px;
     border-radius: 6px;
     max-width: 60%;
+    word-wrap: break-word;
+    
   }
   
   .message-image {
@@ -154,7 +157,7 @@
   }
   
   .message-form-container {
-    position: absolute;
+    position:  sticky;
     bottom: 0px;
     width: calc(100% - 36px);
     padding: 18px;
