@@ -23,7 +23,7 @@ const OtherMessages = ({lastMessage,message})=>{
                 <div className="message" style={
                     {
                         float:'left',
-                        backgroundColor:"#CABCDC",
+                        backgroundColor:"#EAEAEA",
                         marginLeft:isFirstMessageByTheUser?'4px':'48px'
         
                     }
